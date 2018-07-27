@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:background="#b2dfdb"
+            android:gravity="center"
+            android:text="@string/str"
+            android:textColor="@color/lb_grey"
+            android:textSize="36sp" />
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:background="#80cbc4" />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:background="#4db6ac" />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:background="#26a69a" />
+
+        <TextView
+            android:layout_width="96dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="0dp"
+            android:background="#26a69a"
+            android:gravity="center"
+            android:text="This is Activity 1"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/title"
+                android:textSize="24sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text1"
+                    android:textSize="18sp"
+                    />
+                <RadioButton
+                    android:id="@+id/sex1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="男"
+                    />
+                <RadioButton
+                    android:id="@+id/sex2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="女"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/text2"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/height"
+                    android:layout_width="130px"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="cm"
+                    android:textSize="18sp" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/button_calac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="计算"
+                android:layout_gravity="center"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:background="#b2dfdb" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:background="#80cbc4" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:background="#4db6ac" />
+        <TextView
+            android:id="@+id/view_text"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:gravity="center"
+            android:textSize="36sp"
+            android:background="#26a69a" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:text="@string/str_button1"
+            android:textSize="36sp"
+            android:textColor="#0068ff"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/lb_action_bg_focused"
+            />
+        <Button
+            android:id="@+id/button_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="68dp"
+            android:layout_marginTop="7dp"
+            android:text="Go To Activity 2"
+            android:textSize="36sp"
+            android:textColor="#0f68db"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/lb_action_bg_focused"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

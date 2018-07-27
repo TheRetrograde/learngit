@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My App</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="str_1">jfdsijfisigj</string>
+    <string name="str_text_view1">jfdsijfisigj</string>
+    <string name="str_text_view2">jfdsijfisigj</string>
+    <string name="str">HELLO</string>
+    <string name="str_button1">按我啊</string>
+    <string name="layout2">This is layout 2</string>
+    <string name="title_activity_2">Activity2</string>
+    <string name="title">计算你/妳的标准体重!</string>
+    <string name="text1">性别：</string>
+    <string name="text2">身高：</string>
+    <string name="app_about">重要</string>
+    <string name="app_about_msg">这是对话窗口</string>
+    <string name="str_ok">确定</string>
+</resources>

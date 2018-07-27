@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.corochann.myapp.MainActivity">
+    <TextView
+        android:id="@+id/myTextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/str_1"
+        android:layout_x="30px"
+        android:layout_y="50px"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/myTextView02"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="@dimen/lb_action_2_lines_height"
+        >
+    </TextView>
+</android.support.constraint.ConstraintLayout>
